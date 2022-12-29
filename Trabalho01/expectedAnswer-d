@@ -1,0 +1,67 @@
+
+executavel.x:   file format elf32-littleriscv
+
+Disassembly of section .text:
+
+000110c4 <main>:
+   110c4: 13 01 01 fe   addi    sp, sp, -32
+   110c8: 23 2e 11 00   sw      ra, 28(sp)
+   110cc: 23 2c 81 00   sw      s0, 24(sp)
+   110d0: 13 04 01 02   addi    s0, sp, 32
+   110d4: 13 05 00 00   addi    a0, zero, 0
+   110d8: 23 20 a4 fe   sw      a0, -32(s0)
+   110dc: 23 2a a4 fe   sw      a0, -12(s0)
+   110e0: 13 05 a0 00   addi    a0, zero, 10
+   110e4: 23 18 a4 fe   sh      a0, -16(s0)
+   110e8: 37 75 64 21   lui     a0, 136775
+   110ec: 13 05 25 c7   addi    a0, a0, -910
+   110f0: 23 26 a4 fe   sw      a0, -20(s0)
+   110f4: 37 25 57 6f   lui     a0, 456050
+   110f8: 13 05 f5 06   addi    a0, a0, 111
+   110fc: 23 24 a4 fe   sw      a0, -24(s0)
+   11100: 37 65 6c 6c   lui     a0, 444102
+   11104: 13 05 85 54   addi    a0, a0, 1352
+   11108: 23 22 a4 fe   sw      a0, -28(s0)
+   1110c: 13 05 10 00   addi    a0, zero, 1
+   11110: 93 05 44 fe   addi    a1, s0, -28
+   11114: 13 06 d0 00   addi    a2, zero, 13
+   11118: 97 00 00 00   auipc   ra, 0
+   1111c: e7 80 40 04   jalr    ra, 68(ra)
+   11120: 03 25 04 fe   lw      a0, -32(s0)
+   11124: 03 24 81 01   lw      s0, 24(sp)
+   11128: 83 20 c1 01   lw      ra, 28(sp)
+   1112c: 13 01 01 02   addi    sp, sp, 32
+   11130: 67 80 00 00   jalr    zero, 0(ra)
+
+00011134 <_start>:
+   11134: 13 01 01 ff   addi    sp, sp, -16
+   11138: 23 26 11 00   sw      ra, 12(sp)
+   1113c: 23 24 81 00   sw      s0, 8(sp)
+   11140: 13 04 01 01   addi    s0, sp, 16
+   11144: 97 00 00 00   auipc   ra, 0
+   11148: e7 80 00 f8   jalr    ra, -128(ra)
+   1114c: 03 24 81 00   lw      s0, 8(sp)
+   11150: 83 20 c1 00   lw      ra, 12(sp)
+   11154: 13 01 01 01   addi    sp, sp, 16
+   11158: 67 80 00 00   jalr    zero, 0(ra)
+
+0001115c <write>:
+   1115c: 13 01 01 fe   addi    sp, sp, -32
+   11160: 23 2e 11 00   sw      ra, 28(sp)
+   11164: 23 2c 81 00   sw      s0, 24(sp)
+   11168: 13 04 01 02   addi    s0, sp, 32
+   1116c: 23 2a a4 fe   sw      a0, -12(s0)
+   11170: 23 28 b4 fe   sw      a1, -16(s0)
+   11174: 23 26 c4 fe   sw      a2, -20(s0)
+   11178: 83 26 44 ff   lw      a3, -12(s0)
+   1117c: 03 27 04 ff   lw      a4, -16(s0)
+   11180: 83 27 c4 fe   lw      a5, -20(s0)
+   11184: 13 85 06 00   addi    a0, a3, 0
+   11188: 93 05 07 00   addi    a1, a4, 0
+   1118c: 13 86 07 00   addi    a2, a5, 0
+   11190: 93 08 00 04   addi    a7, zero, 64
+   11194: 73 00 00 00   ecall
+   11198: 03 24 81 01   lw      s0, 24(sp)
+   1119c: 83 20 c1 01   lw      ra, 28(sp)
+   111a0: 13 01 01 02   addi    sp, sp, 32
+   111a4: 67 80 00 00   jalr    zero, 0(ra)

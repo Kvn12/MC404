@@ -1,0 +1,3 @@
+le os tamanhos da imagem
+confere os whiteSpace
+pra printar tem q shiftar e somar == concatenar os numeros

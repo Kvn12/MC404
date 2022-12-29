@@ -1,0 +1,13 @@
+entrada:
+	hexadecimal
+	decimal, negativo ou n
+
+saida: 
+	binario
+	decimal
+	hexadecimal
+	decimal mas com o endianess trocado, ou seja: hexadecimal, inverte os pares e dps troca pra decimal dinovo.
+
+
+falta:  caso o hexadecimal for negativo 
+		caso o decimal for negativo e preciso transforma lo em hexa

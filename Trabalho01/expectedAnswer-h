@@ -1,0 +1,13 @@
+
+executavel.x:   file format elf32-littleriscv
+
+Sections:
+Idx Name              Size     VMA      Type
+  0                   00000000 00000000 
+  1 .rodata           0000000e 000100b4 DATA
+  2 .text             000000e4 000110c4 TEXT
+  3 .comment          00000041 00000000 
+  4 .riscv.attributes 00000030 00000000 
+  5 .symtab           00000060 00000000 
+  6 .shstrtab         00000044 00000000 
+  7 .strtab           00000029 00000000 

@@ -1,0 +1,9 @@
+
+executavel.x:   file format elf32-littleriscv
+
+SYMBOL TABLE:
+00000000 l    df *ABS*  00000000 arquivo1.c
+00000000 l    df *ABS*  00000000 arquivo2.c
+00011134 g     F .text  00000028 _start
+000110c4 g     F .text  00000070 main
+0001115c g     F .text  0000004c write

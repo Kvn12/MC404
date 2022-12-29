@@ -1,0 +1,28 @@
+algoritmo:
+
+divide o valor inicial ,Y, por 2 e salva em k
+
+k = y/2
+
+divide y por k e salva em algum lugar em l
+
+l = y/k
+
+soma k e l e salva em p
+
+p = k + l
+
+divide p por 2 e salva em q
+
+q = p / 2
+
+esse q vai ser o novo k
+
+repete a parte da divisao por k e tals
+
+
+
+
+
+
+
